@@ -82,7 +82,7 @@ const Cart = () => {
             {cart.map((curElm) => (
               <div className='cart_item' key={curElm.id}>
                 <div className='img_box'>
-                  <img src={curElm.Img} alt={curElm.Title}/>
+                 <img src={process.env.PUBLIC_URL + curElm.Img} alt={curElm.Title} />
                   <div className='detail'>
                   <h4>{curElm.Cat}</h4>
                   <h3>{curElm.Title}</h3>
