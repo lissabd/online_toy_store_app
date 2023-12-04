@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/online_toy_store_app/static/css/main.4e1f7274.css",
+    "main.js": "/online_toy_store_app/static/js/main.f6843a5d.js",
+    "index.html": "/online_toy_store_app/index.html",
+    "main.4e1f7274.css.map": "/online_toy_store_app/static/css/main.4e1f7274.css.map",
+    "main.f6843a5d.js.map": "/online_toy_store_app/static/js/main.f6843a5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e1f7274.css",
+    "static/js/main.f6843a5d.js"
+  ]
+}
