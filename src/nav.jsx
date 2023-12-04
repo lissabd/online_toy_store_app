@@ -8,7 +8,7 @@ const Nav = () => {
   const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false);
   const toggleBurgerMenu = () => {
     setIsBurgerMenuOpen(!isBurgerMenuOpen);
-  }; 
+  };
   return (
     <header>
       <div className="logo">
