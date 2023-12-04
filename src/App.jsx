@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect}  from 'react';
 import Nav from './nav';
 import Footer from './footer';
 import Home from './home';
@@ -10,6 +10,16 @@ import About from './about';
 import Login from './Login';
 import Registration from './Registration';
 const App = () => {
+  useEffect(() => {
+    // Перенаправление на главную страницу через 1 секунду
+    const redirectTimer = setTimeout(() => {
+      window.location.href = '/';
+    }, 1000000);
+
+    // Очистка таймера при размонтировании компонента или других изменениях
+    return () => clearTimeout(redirectTimer);
+  }, []);
+
   return (
     <Router>
       <>
