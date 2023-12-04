@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Nav from './nav';
 import Footer from './footer';
 import Home from './home';
@@ -15,8 +15,8 @@ const App = () => {
       <>
         <Nav />
         <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
-          <Route path="/home" element={<Home />} />
+          <Navigate to="/" />
+          <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/cart" element={<Cart />} /> 
           <Route path="/about" element={<About/>}></Route>
