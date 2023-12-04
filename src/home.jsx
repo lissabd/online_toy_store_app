@@ -21,25 +21,25 @@ const Home = () => {
           <Link to="/shop"><ShopButton>Shop Now</ShopButton></Link>
         </div>
         <div className='toy-card'>
-          <img src='./images/meccano/meccano-5.png' alt="robot"/>
+          <img src='/images/meccano/meccano-5.png' alt="robot"/>
         </div>
       </div>
       <div className="smallCardsContainer">
         <div className="smallCard first">
           <div className='small-text'>
              <div className='first-pic'>
-                <img src='./images/plushes/plush-5.png' alt="lion"/>
+                <img src='/images/plushes/plush-5.png' alt="lion"/>
              </div>
             <h2>Up to 50% Off</h2>
             <p>On Selected Items</p>
             <Link to="/shop"><ShopButton>Shop Now</ShopButton></Link>
           </div>
           <div className='small-plush'>
-            <img src='./images/plushes/plush-5.png' alt="lion"/>
+            <img src='/images/plushes/plush-5.png' alt="lion"/>
           </div>
         </div>
         <div className="smallCard second">
-        <img src='images/фон.png' alt="фог"/>
+        <img src='/images/фон.png' alt="фог"/>
         <div className='fon-card'>
         <div className='small-last-text'>
             <h3>5% Off</h3>
@@ -51,22 +51,22 @@ const Home = () => {
       </div>
     </div>
     <div className="grid-container">
-            <div className="grid-item"> <img className='re' src="./images/images-in-line-1page/books.jpg" alt="books"/>
+            <div className="grid-item"> <img className='re' src="/images/images-in-line-1page/books.jpg" alt="books"/>
                 <p>Books</p>
             </div>
-            <div className="grid-item"> <img src="./images/images-in-line-1page/cars.jpg" alt="cars"/>
+            <div className="grid-item"> <img src="/images/images-in-line-1page/cars.jpg" alt="cars"/>
                 <p>Cars</p>
             </div>
-            <div className="grid-item">  <img src="./images/images-in-line-1page/dolls.jpg" alt="dolls"/>
+            <div className="grid-item">  <img src="/images/images-in-line-1page/dolls.jpg" alt="dolls"/>
                <p>Dolls</p>
             </div>
-            <div className="grid-item">  <img className='re' src="./images/images-in-line-1page/meccano.jpg" alt="meccano"/>
+            <div className="grid-item">  <img className='re' src="/images/images-in-line-1page/meccano.jpg" alt="meccano"/>
                 <p>Meccano</p>
             </div>
-            <div className="grid-item">   <img src="./images/images-in-line-1page/plush.jpg" alt="plush"/>
+            <div className="grid-item">   <img src="/images/images-in-line-1page/plush.jpg" alt="plush"/>
                 <p>Plush</p>
             </div>
-            <div className="grid-item">   <img src="./images/images-in-line-1page/puzzles.jpg" alt="puzzles"/>
+            <div className="grid-item">   <img src="/images/images-in-line-1page/puzzles.jpg" alt="puzzles"/>
                <p>Puzzles</p>
             </div>
       </div>
@@ -86,7 +86,7 @@ const Home = () => {
               <button className="shop-now-button">Shop Now</button>
             </div>
             <div className='img-sale'>
-              <img src="images/plushes/plush-3.png" alt="Product" />
+              <img src="/images/plushes/plush-3.png" alt="Product" />
             </div>
           </div>             
       </div>
@@ -129,7 +129,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="map-container">
-                 <img src='images/mapa.jpg' alt="map"/>
+                 <img src='/images/mapa.jpg' alt="map"/>
               </div>
           </div>
     </>
