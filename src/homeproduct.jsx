@@ -1,0 +1,77 @@
+import React from 'react';
+
+const Homeproduct = [
+    {
+        /* Пазлы */
+        id: 1,
+        Title: "Puzzle Sea Inhabitants",
+        Cat: 'Puzzles',
+        Price: "$23",
+        Img: './images/puzzles/пазлы1.png',
+    },
+    {
+        id: 22,
+        Title: "Doll Elsa",
+        Cat: 'Dolls',
+        Price: "$75",
+        PriceTotal: "$75",
+        Count: 1,
+        Manufacturer: "USA",
+        Img: './images/dolls/doll4.png',
+    },
+    {
+        id: 3,
+        Title: "Barboskiny Puzzle",
+        Cat: 'Puzzles',
+        Price: "$40",
+        Img: './images/puzzles/пазлы3.png',
+    },
+    {
+        id: 28,
+        Title: "Cute grey raccoon",
+        Cat: 'Plush',
+        Price: "$44",
+        PriceTotal: "$44",
+        Count: 1,
+        Manufacturer: "China",
+        Img: './images/plushes/plush-5.png',
+    },
+    {
+        id: 21,
+        Title: "Barbie Doll Fairy",
+        Cat: 'Dolls',
+        Manufacturer: "USA",
+        Price: "$75",
+        PriceTotal: "$75",
+        Count: 1,
+        Img: './images/dolls/doll3.png',
+    },
+    {
+        id: 26,
+        Title: "Cute cat",
+        Cat: 'Plush',
+        Price: "$79",
+        PriceTotal: "$79",
+        Count: 1,
+        Manufacturer: "China",
+        Img: './images/plushes/plush-3.png',
+    },
+    {
+        id: 15,
+        Title: "Robot",
+        Cat: 'Meccano',
+        Price: "$65",
+        Img: './images/meccano/meccano-1.png',
+    },
+    {
+        id: 27,
+        Title: "Big fluffy cat",
+        Cat: 'Plush',
+        Price: "$59",
+        PriceTotal: "$59",
+        Count: 1,
+        Manufacturer: "China",
+        Img: './images/plushes/plush-4.png',
+    },
+]
+export default Homeproduct;
