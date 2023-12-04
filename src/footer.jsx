@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer" id="footer-main">
       <div className="footer-grid">
         <section className="footer-1">
-          <img src="./online_toy_store_app/images/header-icon.png" alt="Логотип сайта в подвале" />
+          <img src="/images/header-icon.png" alt="Логотип сайта в подвале" />
           <p className="in-footer">We sell high-quality toys for kids <br /> of any age. Bring happiness to your children
             with our help. Purchase interesting toys using a
             special discount.

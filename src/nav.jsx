@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <header>
       <div className="logo">
-        <img src="./online_toy_store_app/images/header-icon.png" alt="Логотип сайта" />
+        <img src="/images/header-icon.png" alt="Логотип сайта" />
       </div>
       <div className="icons-menu">
         <Link to="/cart"> 

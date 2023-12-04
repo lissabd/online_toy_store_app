@@ -24,32 +24,32 @@ const Reviews = () => {
     // сами интервью
     const reviews = [
         {
-            photo: 'images/for-reviews/img1.png',
+            photo: './online_toy_store_app/images/for-reviews/img1.png',
             name: 'Sam Cromstain',
             text: ' This saves so much time! Dont know how I managed without it before. First time use recently, have now used the item several times - a great way to have instant results. Great value, easy to follow instructions.',
         },
         {
-            photo: 'images/for-reviews/img2.png',
+            photo: './online_toy_store_app/images/for-reviews/img2.png',
             name: 'Kerry Lorem',
             text: 'Skyline is truly the best template ever produced by the Kids team. I love its design, the number of pages inside and the fact that I can edit my site myself. Thanks.',
         },
         {
-            photo: 'images/for-reviews/img3.png',
+            photo: './online_toy_store_app/images/for-reviews/img3.png',
             name: 'Tanmay Shukls',
             text: 'The products of your store are the perfect combination of a real reliability and durability. All goods have a great number of advantages and it is very important for the customers. Thank your store for quick delivery.',
         },
         {
-            photo: 'images/for-reviews/img4.jpg',
+            photo: './online_toy_store_app/images/for-reviews/img4.jpg',
             name: 'Emily Sparkle',
             text: 'These toys are magical! My kids absolutely love them. The quality is fantastic, and the variety of options keeps them entertained for hours. Highly recommended',
         },
         {
-            photo: 'images/for-reviews/img5jpg.jpg',
+            photo: './online_toy_store_app/images/for-reviews/img5jpg.jpg',
             name: 'Daniel Playwell',
             text: 'Our experience with this store has been amazing. The toys are not only fun but also educational. My children are learning and having a blast at the same time. Excellent service and fast delivery',
         },
         {
-            photo: 'images/for-reviews/img6.jpg',
+            photo: './online_toy_store_app/images/for-reviews/img6.jpg',
             name: 'Olivia Joyful',
             text: 'Im thrilled with the purchase! The toys are adorable, and the attention to detail is impressive. The website is user-friendly, making the shopping experience delightful. Will definitely shop here again',
         },
