@@ -7,7 +7,7 @@ const Homeproduct = [
         Title: "Puzzle Sea Inhabitants",
         Cat: 'Puzzles',
         Price: "$23",
-        Img: './images/puzzles/пазлы1.png',
+        Img: './online_toy_store_app/images/puzzles/пазлы1.png',
     },
     {
         id: 22,
@@ -17,14 +17,14 @@ const Homeproduct = [
         PriceTotal: "$75",
         Count: 1,
         Manufacturer: "USA",
-        Img: './images/dolls/doll4.png',
+        Img: './online_toy_store_app/images/dolls/doll4.png',
     },
     {
         id: 3,
         Title: "Barboskiny Puzzle",
         Cat: 'Puzzles',
         Price: "$40",
-        Img: './images/puzzles/пазлы3.png',
+        Img: './online_toy_store_app/images/puzzles/пазлы3.png',
     },
     {
         id: 28,
@@ -34,7 +34,7 @@ const Homeproduct = [
         PriceTotal: "$44",
         Count: 1,
         Manufacturer: "China",
-        Img: './images/plushes/plush-5.png',
+        Img: './online_toy_store_app/images/plushes/plush-5.png',
     },
     {
         id: 21,
@@ -44,7 +44,7 @@ const Homeproduct = [
         Price: "$75",
         PriceTotal: "$75",
         Count: 1,
-        Img: './images/dolls/doll3.png',
+        Img: './online_toy_store_app/images/dolls/doll3.png',
     },
     {
         id: 26,
@@ -54,14 +54,14 @@ const Homeproduct = [
         PriceTotal: "$79",
         Count: 1,
         Manufacturer: "China",
-        Img: './images/plushes/plush-3.png',
+        Img: './online_toy_store_app/images/plushes/plush-3.png',
     },
     {
         id: 15,
         Title: "Robot",
         Cat: 'Meccano',
         Price: "$65",
-        Img: './images/meccano/meccano-1.png',
+        Img: './online_toy_store_app/images/meccano/meccano-1.png',
     },
     {
         id: 27,
@@ -71,7 +71,7 @@ const Homeproduct = [
         PriceTotal: "$59",
         Count: 1,
         Manufacturer: "China",
-        Img: './images/plushes/plush-4.png',
+        Img: './online_toy_store_app/images/plushes/plush-4.png',
     },
 ]
 export default Homeproduct;

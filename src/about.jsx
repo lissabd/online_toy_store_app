@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="grid-cards-about">
             <div className="card card_1">
-            <img src="images/дети-для-карточки.png" alt="kids" />
+            <img src="./online_toy_store_app/images/дети-для-карточки.png" alt="kids" />
             <h1>We Have Everything You Need ?</h1>
             <p>
                 It is known that children as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
@@ -22,7 +22,7 @@ const About = () => {
             </p>
             </div>
             <div className="card card_2">
-            <img src="images/дети-игргают-для-карточки.png" alt="playing kids" />
+            <img src="./online_toy_store_app/images/дети-игргают-для-карточки.png" alt="playing kids" />
             <ul>
                 <li> <div className="check-mark">✓</div> We make your life easier.</li>
                 <li> <div className="check-mark">✓</div> Experience childcare.</li>
@@ -60,7 +60,7 @@ const About = () => {
     </div>
     <div className="container-learning-games">
         <div className="img-container">
-            <img src="images/ребенок-играетjpg.jpg" alt="playing" />
+            <img src="./online_toy_store_app/images/ребенок-играетjpg.jpg" alt="playing" />
         </div>
         <div className="text-container">
             <h1>What Are the Learning Games?</h1>
@@ -75,43 +75,43 @@ const About = () => {
         </div>
         <div class="grid-container-about">
             <div class="grid-item">
-                <div class="icon"> <img src='images/icons/icons-1.jpg' alt="icon"/></div>
+                <div class="icon"> <img src='./online_toy_store_app/images/icons/icons-1.jpg' alt="icon"/></div>
                 <p>Availability of all products in stock</p>
             </div>
             <div class="grid-item">
-                <div class="icon"> <img src='images/icons/icons-2.jpg' alt="icon"/></div>
+                <div class="icon"> <img src='./online_toy_store_app/images/icons/icons-2.jpg' alt="icon"/></div>
                 <p>Affordable prices and discounts</p>
             </div>
             <div class="grid-item">
-                <div class="icon"> <img src='images/icons/icons-3.jpg' alt="icon"/></div>
+                <div class="icon"> <img src='./online_toy_store_app/images/icons/icons-3.jpg' alt="icon"/></div>
                 <p>Free delivery</p>
             </div>
             <div class="grid-item">
-                <div class="icon"> <img src='images/icons/icons-4.jpg' alt="icon"/></div>
+                <div class="icon"> <img src='./online_toy_store_app/images/icons/icons-4.jpg' alt="icon"/></div>
                 <p>Convenient delivery</p>
             </div>
             <div class="grid-item">
-                <div class="icon"> <img src='images/icons/icons-5.jpg' alt="icon"/></div>
+                <div class="icon"> <img src='./online_toy_store_app/images/icons/icons-5.jpg' alt="icon"/></div>
                 <p>The latest news from the world of toys</p>
             </div>
             <div class="grid-item">
-                <div class="icon"> <img src='images/icons/icons-6.jpg' alt="icon"/></div>
+                <div class="icon"> <img src='./online_toy_store_app/images/icons/icons-6.jpg' alt="icon"/></div>
                 <p>Quick order processing</p>
             </div>
             <div class="grid-item">
-                <div class="icon"> <img src='images/icons/icons-7.jpg' alt="icon"/></div>
+                <div class="icon"> <img src='./online_toy_store_app/images/icons/icons-7.jpg' alt="icon"/></div>
                 <p>Round-the-clock order acceptance</p>
             </div>
             <div class="grid-item">
-                <div class="icon"> <img src='images/icons/icons-8.jpg' alt="icon"/></div>
+                <div class="icon"> <img src='./online_toy_store_app/images/icons/icons-8.jpg' alt="icon"/></div>
                 <p>Pickup from the store in 15 minutes after the order</p>
             </div>
             <div class="grid-item">
-                <div class="icon"> <img src='images/icons/icons-9.jpg' alt="icon"/></div>
+                <div class="icon"> <img src='./online_toy_store_app/images/icons/icons-9.jpg' alt="icon"/></div>
                 <p>Urgent delivery</p>
             </div>
             <div class="grid-item">
-                <div class="icon"> <img src='images/icons/icons-10.jpg' alt="icon"/></div>
+                <div class="icon"> <img src='./online_toy_store_app/images/icons/icons-10.jpg' alt="icon"/></div>
                 <p>Special conditions for legal entities</p>
             </div>
         </div>
