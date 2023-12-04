@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Nav from './nav';
 import Footer from './footer';
 import Home from './home';
 import Shop from './shop';
-import { BrowserRouter as Router, Route, Routes, Navigate  } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './styles/App.css';
 import Cart from './cart';
 import About from './about';
@@ -15,7 +15,6 @@ const App = () => {
       <>
         <Nav />
         <Routes>
-          <Navigate to="/" />
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/cart" element={<Cart />} /> 
