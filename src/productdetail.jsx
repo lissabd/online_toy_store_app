@@ -10,7 +10,7 @@ const Productdetail = [
         PriceTotal: "$23",
         Count: 1,
         Manufacturer: "USA",
-        Img: './online_toy_store_app/images/puzzles/пазлы1.png',
+        Img: './images/puzzles/пазлы1.png',
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ const Productdetail = [
         PriceTotal: "$30",
         Count: 1,
         Manufacturer: "USA",
-        Img: './online_toy_store_app/images/puzzles/пазлы2.png',
+        Img: './images/puzzles/пазлы2.png',
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const Productdetail = [
         Price: "$40",
         PriceTotal: "$40",
         Count: 1,
-        Img: './online_toy_store_app/images/puzzles/пазлы3.png',
+        Img: './images/puzzles/пазлы3.png',
     },
     {
         id: 4,
@@ -40,7 +40,7 @@ const Productdetail = [
         Price: "$42",
         PriceTotal: "$42",
         Count: 1,
-        Img: './online_toy_store_app/images/puzzles/пазлы4.png',
+        Img: './images/puzzles/пазлы4.png',
     },
     {
         id: 5,
@@ -50,7 +50,7 @@ const Productdetail = [
         Price: "$12",
         PriceTotal: "$12",
         Count: 1,
-        Img: './online_toy_store_app/images/puzzles/пазлы6.png',
+        Img: './images/puzzles/пазлы6.png',
     },
     {
         id: 6,
@@ -58,7 +58,7 @@ const Productdetail = [
         Cat: 'Puzzles',
         Manufacturer: "USA",
         Price: "$22",
-        Img: './online_toy_store_app/images/puzzles/пазлы7.png',
+        Img: './images/puzzles/пазлы7.png',
     },
     {
         id: 7,
@@ -68,7 +68,7 @@ const Productdetail = [
         Price: "$22",
         PriceTotal: "$22",
         Count: 1,
-        Img: './online_toy_store_app/images/puzzles/пазлы8.png',
+        Img: './images/puzzles/пазлы8.png',
     },
     {
         id: 8,
@@ -78,7 +78,7 @@ const Productdetail = [
         PriceTotal: "$22",
         Count: 1,
         Manufacturer: "USA",
-        Img: './online_toy_store_app/images/puzzles/пазлы9.png',
+        Img: './images/puzzles/пазлы9.png',
     },
     {
         id: 9,
@@ -88,7 +88,7 @@ const Productdetail = [
         Price: "$22",
         PriceTotal: "$22",
         Count: 1,
-        Img: './online_toy_store_app/images/puzzles/пазлы10.png',
+        Img: './images/puzzles/пазлы10.png',
     },
     /* Плюшевые игрушки */
     {
@@ -99,7 +99,7 @@ const Productdetail = [
         Price: "$52",
         PriceTotal: "$52",
         Count: 1,
-        Img: './online_toy_store_app/images/plushes/plush-1.png',
+        Img: './images/plushes/plush-1.png',
     },
     {
         id: 11,
@@ -109,7 +109,7 @@ const Productdetail = [
         PriceTotal: "$45",
         Count: 1,
         Manufacturer: "China",
-        Img: './online_toy_store_app/images/plushes/plush-2.png',
+        Img: './images/plushes/plush-2.png',
     },
     /* машины*/
     {
@@ -120,7 +120,7 @@ const Productdetail = [
         Price: "$55",
         PriceTotal: "$55",
         Count: 1,
-        Img: './online_toy_store_app/images/cars/машина1.png',
+        Img: './images/cars/машина1.png',
     },
     {
         id: 13,
@@ -130,7 +130,7 @@ const Productdetail = [
         PriceTotal: "$79",
         Count: 1,
         Manufacturer: "China",
-        Img: './online_toy_store_app/images/cars/машина5.png',
+        Img: './images/cars/машина5.png',
     },
     {
         id: 14,
@@ -140,7 +140,7 @@ const Productdetail = [
         Price: "$55",
         PriceTotal: "$55",
         Count: 1,
-        Img: './online_toy_store_app/images/cars/машина3.png',
+        Img: './images/cars/машина3.png',
     },
     /*meccano */
     {
@@ -151,7 +151,7 @@ const Productdetail = [
         Price: "$65",
         PriceTotal: "$65",
         Count: 1,
-        Img: './online_toy_store_app/images/meccano/meccano-1.png',
+        Img: './images/meccano/meccano-1.png',
     },
     {
         id: 16,
@@ -161,7 +161,7 @@ const Productdetail = [
         PriceTotal: "$89",
         Count: 1,
         Manufacturer: "China",
-        Img: './online_toy_store_app/images/meccano/meccano-2.png',
+        Img: './images/meccano/meccano-2.png',
     },
     /* Куклы */
     {
@@ -172,7 +172,7 @@ const Productdetail = [
         PriceTotal: "$75",
         Count: 1,
         Manufacturer: "China",
-        Img: './online_toy_store_app/images/dolls/doll5.png',
+        Img: './images/dolls/doll5.png',
     },
     {
         id: 18,
@@ -182,7 +182,7 @@ const Productdetail = [
         PriceTotal: "$85",
         Count: 1,
         Manufacturer: "USA",
-        Img: './online_toy_store_app/images/dolls/doll6.png',
+        Img: './images/dolls/doll6.png',
     },
     {
         id: 19,
@@ -192,7 +192,7 @@ const Productdetail = [
         Price: "$65",
         PriceTotal: "$65",
         Count: 1,
-        Img: './online_toy_store_app/images/dolls/doll1.png',
+        Img: './images/dolls/doll1.png',
     },
     {
         id: 20,
@@ -202,7 +202,7 @@ const Productdetail = [
         Price: "$100",
         PriceTotal: "$100",
         Count: 1,
-        Img: './online_toy_store_app/images/dolls/doll2.png',
+        Img: './images/dolls/doll2.png',
     },
     {
         id: 21,
@@ -212,7 +212,7 @@ const Productdetail = [
         Price: "$75",
         PriceTotal: "$75",
         Count: 1,
-        Img: './online_toy_store_app/images/dolls/doll3.png',
+        Img: './images/dolls/doll3.png',
     },
     {
         id: 22,
@@ -222,7 +222,7 @@ const Productdetail = [
         PriceTotal: "$75",
         Count: 1,
         Manufacturer: "USA",
-        Img: './online_toy_store_app/images/dolls/doll4.png',
+        Img: './images/dolls/doll4.png',
     },
     /* доп. meccano*/
     {
@@ -233,7 +233,7 @@ const Productdetail = [
         PriceTotal: "$199",
         Count: 1,
         Manufacturer: "China",
-        Img: './online_toy_store_app/images/meccano/meccano-3.png',
+        Img: './images/meccano/meccano-3.png',
     },
     {
         id: 24,
@@ -243,7 +243,7 @@ const Productdetail = [
         PriceTotal: "$299",
         Count: 1,
         Manufacturer: "China",
-        Img: './online_toy_store_app/images/meccano/meccano-4.png',
+        Img: './images/meccano/meccano-4.png',
     },
     {
         id: 25,
@@ -253,7 +253,7 @@ const Productdetail = [
         PriceTotal: "$99",
         Count: 1,
         Manufacturer: "China",
-        Img: './online_toy_store_app/images/meccano/meccano-5.png',
+        Img: './images/meccano/meccano-5.png',
     },
     /* доп. plushes*/
     {
@@ -264,7 +264,7 @@ const Productdetail = [
         PriceTotal: "$79",
         Count: 1,
         Manufacturer: "China",
-        Img: './online_toy_store_app/images/plushes/plush-3.png',
+        Img: './images/plushes/plush-3.png',
     },
     {
         id: 27,
@@ -274,7 +274,7 @@ const Productdetail = [
         PriceTotal: "$59",
         Count: 1,
         Manufacturer: "China",
-        Img: './online_toy_store_app/images/plushes/plush-4.png',
+        Img: './images/plushes/plush-4.png',
     },
     {
         id: 28,
@@ -284,7 +284,7 @@ const Productdetail = [
         PriceTotal: "$44",
         Count: 1,
         Manufacturer: "China",
-        Img: './online_toy_store_app/images/plushes/plush-5.png',
+        Img: './images/plushes/plush-5.png',
     },
     /* доп. cars*/
     {
@@ -295,7 +295,7 @@ const Productdetail = [
         PriceTotal: "$99",
         Count: 1,
         Manufacturer: "China",
-        Img: './online_toy_store_app/images/cars/машина4.png',
+        Img: './images/cars/машина4.png',
     }, 
     {
         id: 30,
@@ -305,7 +305,7 @@ const Productdetail = [
         PriceTotal: "$99",
         Count: 1,
         Manufacturer: "China",
-        Img: './online_toy_store_app/images/plushes/plush-7.png',
+        Img: './images/plushes/plush-7.png',
     }, 
 ];
 

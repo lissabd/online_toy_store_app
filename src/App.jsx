@@ -61,22 +61,22 @@ const Home = () => {
       </div>
     </div>
     <div className="grid-container">
-            <div className="grid-item"> <img className='re' src="./online_toy_store_app/images/images-in-line-1page/books.jpg" alt="books"/>
+            <div className="grid-item"> <img className='re' src="./images/images-in-line-1page/books.jpg" alt="books"/>
                 <p>Books</p>
             </div>
-            <div className="grid-item"> <img src="./online_toy_store_app/images/images-in-line-1page/cars.jpg" alt="cars"/>
+            <div className="grid-item"> <img src="./images/images-in-line-1page/cars.jpg" alt="cars"/>
                 <p>Cars</p>
             </div>
-            <div className="grid-item">  <img src="./online_toy_store_app/images/images-in-line-1page/dolls.jpg" alt="dolls"/>
+            <div className="grid-item">  <img src="./images/images-in-line-1page/dolls.jpg" alt="dolls"/>
                <p>Dolls</p>
             </div>
-            <div className="grid-item">  <img className='re' src="./online_toy_store_app/images/images-in-line-1page/meccano.jpg" alt="meccano"/>
+            <div className="grid-item">  <img className='re' src="./images/images-in-line-1page/meccano.jpg" alt="meccano"/>
                 <p>Meccano</p>
             </div>
-            <div className="grid-item">   <img src="./online_toy_store_app/images/images-in-line-1page/plush.jpg" alt="plush"/>
+            <div className="grid-item">   <img src="./images/images-in-line-1page/plush.jpg" alt="plush"/>
                 <p>Plush</p>
             </div>
-            <div className="grid-item">   <img src="./online_toy_store_app/images/images-in-line-1page/puzzles.jpg" alt="puzzles"/>
+            <div className="grid-item">   <img src="./images/images-in-line-1page/puzzles.jpg" alt="puzzles"/>
                <p>Puzzles</p>
             </div>
       </div>

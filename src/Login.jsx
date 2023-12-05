@@ -18,7 +18,7 @@ const Login = () => {
       Price: "$52",
       PriceTotal: "$52",
       Count: 1,
-      Img: './online_toy_store_app/images/plushes/plush-1.png',
+      Img: './images/plushes/plush-1.png',
   },
   {
       id: 11,
@@ -28,7 +28,7 @@ const Login = () => {
       PriceTotal: "$45",
       Count: 1,
       Manufacturer: "China",
-      Img: './online_toy_store_app/images/plushes/plush-2.png',
+      Img: './images/plushes/plush-2.png',
   },
   {
       id: 12,
@@ -38,7 +38,7 @@ const Login = () => {
       Price: "$55",
       PriceTotal: "$55",
       Count: 1,
-      Img: './online_toy_store_app/images/cars/машина1.png',
+      Img: './images/cars/машина1.png',
   },
   { 
     id: 15,
@@ -48,7 +48,7 @@ const Login = () => {
     Price: "$65",
     PriceTotal: "$65",
     Count: 1,
-    Img: './online_toy_store_app/images/meccano/meccano-1.png',
+    Img: './images/meccano/meccano-1.png',
   },
   ];
 
@@ -82,7 +82,7 @@ const Login = () => {
       {isLogin ? (
         <div className="already-login">
           <div className="welcome-section">
-            <img src="./online_toy_store_app/images/дляВхода.jpg" alt="Welcome" />
+            <img src="./images/дляВхода.jpg" alt="Welcome" />
             <div className="overlay">
               <h1>Welcome, {email}!</h1>
               <button onClick={handleLogout}>Log out</button>

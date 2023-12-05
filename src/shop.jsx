@@ -105,7 +105,7 @@ const Shop = () => {
               </div>
             </div>           
             <div className='text-pic-block'>
-              <img src='./online_toy_store_app/images/for-shop-main-pic.jpg' alt="toys"></img>
+              <img src='./images/for-shop-main-pic.jpg' alt="toys"></img>
               <h1>Shop</h1>
               <p>Have you ever wondered how grateful can be your pet for your care and love? Little hearts of those 
                 animals we take care of are able to warm us and hide from sad thoughts no matter how big our pets are.
