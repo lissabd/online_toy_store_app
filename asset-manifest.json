@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/online_toy_store_app/static/css/main.70d80b38.css",
-    "main.js": "/online_toy_store_app/static/js/main.8b62a6c0.js",
+    "main.js": "/online_toy_store_app/static/js/main.30294637.js",
     "index.html": "/online_toy_store_app/index.html",
     "main.70d80b38.css.map": "/online_toy_store_app/static/css/main.70d80b38.css.map",
-    "main.8b62a6c0.js.map": "/online_toy_store_app/static/js/main.8b62a6c0.js.map"
+    "main.30294637.js.map": "/online_toy_store_app/static/js/main.30294637.js.map"
   },
   "entrypoints": [
     "static/css/main.70d80b38.css",
-    "static/js/main.8b62a6c0.js"
+    "static/js/main.30294637.js"
   ]
 }
