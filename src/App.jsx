@@ -38,18 +38,18 @@ const Home = () => {
         <div className="smallCard first">
           <div className='small-text'>
              <div className='first-pic'>
-                <img src='./online_toy_store_app/images/plushes/plush-5.png' alt="lion"/>
+                <img src='./images/plushes/plush-5.png' alt="lion"/>
              </div>
             <h2>Up to 50% Off</h2>
             <p>On Selected Items</p>
             <Link to="/shop"><ShopButton>Shop Now</ShopButton></Link>
           </div>
           <div className='small-plush'>
-            <img src='./online_toy_store_app/images/plushes/plush-5.png' alt="lion"/>
+            <img src='./images/plushes/plush-5.png' alt="lion"/>
           </div>
         </div>
         <div className="smallCard second">
-        <img src='./online_toy_store_app/images/фон.png' alt="фог"/>
+        <img src='./images/фон.png' alt="фог"/>
         <div className='fon-card'>
         <div className='small-last-text'>
             <h3>5% Off</h3>
@@ -96,7 +96,7 @@ const Home = () => {
               <button className="shop-now-button">Shop Now</button>
             </div>
             <div className='img-sale'>
-              <img src="./online_toy_store_app/images/plushes/plush-3.png" alt="Product" />
+              <img src="./images/plushes/plush-3.png" alt="Product" />
             </div>
           </div>             
       </div>
@@ -129,7 +129,7 @@ const Home = () => {
               <div className="store-container">
                 <h4>Store Locator</h4>
                 <p>We constantly arrange a variety of activities for our students and their parents, and for those who have not yet enrolled in our kindergarten.</p>
-                <img src='./online_toy_store_app/images/shop.jpg' alt="shop"/>
+                <img src='./images/shop.jpg' alt="shop"/>
                 <div className='list'>
                   <ul>
                     <li> <MdLocationPin /> Arbat street, 12</li>
@@ -139,7 +139,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="map-container">
-                 <img src='./online_toy_store_app/images/mapa.jpg' alt="map"/>
+                 <img src='./images/mapa.jpg' alt="map"/>
               </div>
           </div>
     </>

@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="grid-cards-about">
             <div className="card card_1">
-            <img src="./online_toy_store_app/images/дети-для-карточки.png" alt="kids" />
+            <img src="./images/дети-для-карточки.png" alt="kids" />
             <h1>We Have Everything You Need ?</h1>
             <p>
                 It is known that children as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
