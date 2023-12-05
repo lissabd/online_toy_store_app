@@ -2,7 +2,7 @@ import React  from 'react';
 import Nav from './nav';
 import Footer from './footer';
 import Shop from './shop';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { HashRouter as Router, Route, Routes} from 'react-router-dom';
 import './styles/App.css';
 import Cart from './cart';
 import About from './about';
@@ -31,7 +31,7 @@ const Home = () => {
           <Link to="/shop"><ShopButton>Shop Now</ShopButton></Link>
         </div>
         <div className='toy-card'>
-          <img src='/images/meccano/meccano-5.png' alt="robot"/>
+          <img src='./online_toy_store_app/images/meccano/meccano-5.png' alt="robot"/>
         </div>
       </div>
       <div className="smallCardsContainer">
