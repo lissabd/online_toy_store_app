@@ -31,7 +31,7 @@ const Home = () => {
           <Link to="/shop"><ShopButton>Shop Now</ShopButton></Link>
         </div>
         <div className='toy-card'>
-          <img src='./online_toy_store_app/images/meccano/meccano-5.png' alt="robot"/>
+          <img src='./images/meccano/meccano-5.png' alt="robot"/>
         </div>
       </div>
       <div className="smallCardsContainer">
