@@ -469,9 +469,7 @@ img {
   .grid-container {
     grid-template-columns: repeat(3, 1fr);
   }
-  .grid-container .re{
-    width: 90%;
-  }
+  
   .product{
     justify-content: center;
     align-items: center;

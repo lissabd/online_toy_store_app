@@ -8,9 +8,12 @@ const Footer = () => {
       <div className="footer-grid">
         <section className="footer-1">
           <img src="./images/header-icon.png" alt="Логотип сайта в подвале" />
-          <p className="in-footer">Мы продаем высококачественные игрушки для детей любого возраста. Осчастливьте своих детей
-с нашей помощью. Приобретайте интересные игрушки 
+          <p className="in-footer"> Информация о разработчике:
           </p>
+          <p>ФИО: Абдеева А.Р. 
+          </p>
+          <p>Группа: ИКБО-16-22</p>
+
         </section>
         <section className="footer-2">
           <p><strong>Информация</strong></p>
@@ -34,10 +37,13 @@ const Footer = () => {
           <p><strong>Поддерживать связь</strong></p>
           <div className="email-input-container">
             <input type="email" className="email-input" placeholder="Введите почту..." />
-          </div>    
+          </div>   
+          <div className='forbut'>
+            <button>Отправить</button>
+          </div> 
+         
           <div>
-            <p>Информация о разработчике</p>
-            <p> Абдеева А.Р. ИКБО-16-22</p>
+            
           </div>
         </section>
       </div>

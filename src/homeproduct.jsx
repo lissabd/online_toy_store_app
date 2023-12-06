@@ -3,14 +3,15 @@ import React from 'react';
 const Homeproduct = [
     {
         id: 1,
-        Title: "Красная спортивная машина",
-        Cat: 'Машины',
-        Price: "1179₽",
-        PriceTotal: "1179₽",
+        Title: "Дюймовочка",
+        Cat: 'Книги',
+        Price: "1199₽",
+        PriceTotal: "1199₽",
         Count: 1,
         Manufacturer: "China",
-        Img: './images/cars/машина5.png',
-    },
+        Img: './images/books/80bc3b3f963eda4c55482d4770407d72_pixian_ai.png',
+        
+    }, 
     {
         id: 2,
         Title: "Желтый трактор",
