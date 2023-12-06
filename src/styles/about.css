@@ -48,7 +48,7 @@
     border: 5px solid rgb(249, 140, 31);
     position: relative;
 }
-.card_2 img {
+.card_2 img, .card_3 img {
     border-radius: 30px;
     width: 100%; 
 }
