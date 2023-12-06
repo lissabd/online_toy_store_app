@@ -23,14 +23,14 @@ const Nav = () => {
         </Link>
       </div>
       <div className="contact-bar">
-        <p>CALL US: 123-456-7890 7 DAYS A WEEK FROM 9:00 AM TO 7:00 PM</p>
+        <p>СВЯЗАТЬСЯ: 123-456-7890 БЕЗ ВЫХОДНЫХ С 9:00 ДО 7:00 PM</p>
       </div>
       <div className="menu-container">
         <nav className={`main-menu ${isBurgerMenuOpen ? 'active' : ''}`}>
           <ul className={`nav-links ${isBurgerMenuOpen ? 'active' : ''}`}>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/shop">Shop</Link></li>
+            <li><Link to="/">Главная</Link></li>
+            <li><Link to="/about">О нас</Link></li>
+            <li><Link to="/shop">Каталог</Link></li>
           </ul>
         </nav>
         <div className="burger-menu" onClick={toggleBurgerMenu}>

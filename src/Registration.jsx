@@ -36,9 +36,9 @@ const Registration = () => {
   return (
     <div className="registration-container">
       <form onSubmit={handleSubmit} className="registration-form">
-        <h1>Registration</h1>
+        <h1>Регистрация</h1>
         <div className="form-group">
-          <label htmlFor='email'>Email</label>
+          <label htmlFor='email'>Почта</label>
           <input
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -50,58 +50,58 @@ const Registration = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor='password'>Password</label>
+          <label htmlFor='password'>Пароль</label>
           <input
             value={pass}
             onChange={(e) => setPass(e.target.value)}
             type='password'
-            placeholder='Enter your password'
+            placeholder='Введите ваш пароль'
             id='password'
             name='password'
             required
           />
         </div>
         <div className="form-group">
-          <label htmlFor='repeatPassword'>Repeat Password</label>
+          <label htmlFor='repeatPassword'>Повторно введите пароль</label>
           <input
             value={checkPass}
             onChange={(e) => setcheckPass(e.target.value)}
             type='password'
-            placeholder='Enter your password again'
+            placeholder='Введите ваш пароль снова'
             id='repeatPassword'
             name='repeatPassword'
             required
           />
         </div>
         <div className="form-group">
-          <label htmlFor='name'>Enter Your First Name</label>
+          <label htmlFor='name'>Введите Ваше имя</label>
           <input
             value={name}
             onChange={(e) => setName(e.target.value)}
             type='text'
-            placeholder='Enter your first name'
+            placeholder='Введите Ваше имя'
             id='firstName'
             name='firstName'
             required
           />
         </div>
         <div className="form-group">
-          <label htmlFor='name'>Enter Your Last Name</label>
+          <label htmlFor='name'>Введите Вашу фамилию</label>
           <input
             value={surname}
             onChange={(e) => setSurname(e.target.value)}
             type='text'
-            placeholder='Enter your last name'
+            placeholder='Введите Вашу фамилию'
             id='lastName'
             name='lastName'
             required
           />
         </div>
-        <button type='submit'>Send</button>
+        <button type='submit'>Отправить</button>
       </form>
       <div className="error-message">{error}</div>
       <div className="login-section">
-        <div>Already have an account? <Link to="/login">Log in here</Link></div>
+        <div>Уже есть аккаунт? <Link to="/login">Войти здесь</Link></div>
       </div>
     </div>
   );

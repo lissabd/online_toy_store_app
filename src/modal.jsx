@@ -18,11 +18,11 @@ const Modal = ({active, onClose, product, addToCart}) => {
                     <img src={product.Img} alt={product.Title} className="modal-image" />                   
                     <div className='info'>
                         <h2>{product.Title}</h2>
-                        <p>Category: {product.Cat}</p>
-                        <p>Price: {product.Price}</p>                      
-                        <p className='lorem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in erat ut velit imperdiet semper eget ac tortor. Morbi tempus in leo quis tempus. Donec volutpat augue vitae orci sagittis facilisis. Etiam sed ante finibus. </p>
+                        <p>Категория: {product.Cat}</p>
+                        <p>Цена: {product.Price}</p>                      
+                        <p className='lorem'>Выбирая наши игрушки, вы выбираете не просто товар, а инвестицию в будущее вашего ребенка. Позвольте им расти, учиться и веселиться с нашими качественными и образовательными игрушками! </p>
                        <div className='buttons-add'>
-                            <button className='button_1' onClick={handleAddToCart}>Add to <SlBasket /></button>
+                            <button className='button_1' onClick={handleAddToCart}>Добавить <SlBasket /></button>
                        </div>
                     </div>
                    </div>

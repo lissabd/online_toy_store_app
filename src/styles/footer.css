@@ -2,6 +2,13 @@
     background-color: #fdfbfb;
     padding: 60px;
 }
+.footer-3 .links-for-third a{
+    text-decoration: none;
+
+}
+.footer-2 .links a{
+    text-decoration: none;
+}
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -13,9 +20,13 @@
 footer section {
     color: #100b0b; 
 }
+.footer-grid ul li a {
+    text-decoration: none;
+}
 footer  ul {
     cursor: pointer;
     list-style: none;
+    text-decoration: none;
 }
 footer p{
     font-family: Snell Roundhand, cursive;
@@ -24,6 +35,7 @@ footer p{
     padding-bottom: 15px;
 }
 .footer ul li a{
+    text-decoration: none;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     text-transform: capitalize;

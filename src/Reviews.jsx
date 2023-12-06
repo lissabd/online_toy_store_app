@@ -25,33 +25,33 @@ const Reviews = () => {
     const reviews = [
         {
             photo: './images/for-reviews/img1.png',
-            name: 'Sam Cromstain',
-            text: ' This saves so much time! Dont know how I managed without it before. First time use recently, have now used the item several times - a great way to have instant results. Great value, easy to follow instructions.',
+            name: 'Сэм Кромстейн',
+            text: 'Очарована этим магазином! Заказала несколько игрушек для сына, и они превзошли ожидания. Красочные, безопасные материалы и приятные цены. Быстрая доставка, довольна каждой покупкой...',
         },
         {
             photo: './images/for-reviews/img2.png',
-            name: 'Kerry Lorem',
-            text: 'Skyline is truly the best template ever produced by the Kids team. I love its design, the number of pages inside and the fact that I can edit my site myself. Thanks.',
+            name: 'Кэрри',
+            text: 'Прекрасный опыт покупок в этом интернет-магазине. Широкий выбор, подробные описания товаров и отличное качество. Ребенок в восторге от новых игрушек. Спасибо за ваш профессионализм!',
         },
         {
             photo: './images/for-reviews/img3.png',
-            name: 'Tanmay Shukls',
-            text: 'The products of your store are the perfect combination of a real reliability and durability. All goods have a great number of advantages and it is very important for the customers. Thank your store for quick delivery.',
+            name: 'Танмай Шуклс',
+            text: 'Позитивные эмоции от покупок в этом магазине! Игрушки высокого качества, привлекательные цены и оперативная доставка. Дети в восторге, и мы тоже. Спасибо за радость, которую вы приносите.',
         },
         {
             photo: './images/for-reviews/img4.jpg',
-            name: 'Emily Sparkle',
-            text: 'These toys are magical! My kids absolutely love them. The quality is fantastic, and the variety of options keeps them entertained for hours. Highly recommended',
+            name: 'Эмили Спаркл',
+            text: 'Эти игрушки волшебные! Мои дети их очень любят. Качество фантастическое, а разнообразие опций позволяет развлекать их часами. Настоятельно рекомендуется',
         },
         {
             photo: './images/for-reviews/img5jpg.jpg',
-            name: 'Daniel Playwell',
-            text: 'Our experience with this store has been amazing. The toys are not only fun but also educational. My children are learning and having a blast at the same time. Excellent service and fast delivery',
+            name: 'Дэниел Плейвелл',
+            text: 'Наш опыт работы с этим магазином был потрясающим. Игрушки не только развлекательные, но и обучающие. Мои дети учатся и веселятся одновременно. Отличный сервис и быстрая доставка',
         },
         {
             photo: './images/for-reviews/img6.jpg',
-            name: 'Olivia Joyful',
-            text: 'Im thrilled with the purchase! The toys are adorable, and the attention to detail is impressive. The website is user-friendly, making the shopping experience delightful. Will definitely shop here again',
+            name: 'Оливия Джойфул',
+            text: 'Я в восторге от покупки! Игрушки очаровательны, а внимание к деталям впечатляет. Сайт удобен для пользователя, что делает процесс покупок приятным. Обязательно буду делать покупки здесь снова',
         },
         
     ];
@@ -66,8 +66,8 @@ const Reviews = () => {
         <>
           <div className="reviews-container">
             <div className="text">
-              <h3>People Talk About Us</h3>
-              <p>Made with care for your little ones, our products are perfect for every occasion. Check it out.</p>
+              <h3>Люди говорят о нас</h3>
+              <p>Наши продукты, созданные с заботой о ваших малышах, идеально подходят для любого случая. Проверьте это.</p>
             </div>
             {reviews.slice(startIndex, startIndex + itemsPerPage).map((review, index) => (
               <div key={index} className="review">

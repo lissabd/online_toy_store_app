@@ -12,41 +12,41 @@ const Login = () => {
   const popularProducts = [
     {
       id: 10,
-      Title: "Plush toy Teddy bear with a bow",
-      Cat: 'Plush',
+      Title: "Белый мишка",
+      Cat: 'Плюшевые',
       Manufacturer: "China",
-      Price: "$52",
-      PriceTotal: "$52",
+      Price: "1152₽",
+      PriceTotal: "1152₽",
       Count: 1,
       Img: './images/plushes/plush-1.png',
   },
   {
       id: 11,
-      Title: "Cute Lion With Big Eyes",
-      Cat: 'Plush',
-      Price: "$45",
-      PriceTotal: "$45",
+      Title: "Милый лев",
+      Cat: 'Плюшевые',
+      Price: "425₽",
+      PriceTotal: "425₽",
       Count: 1,
       Manufacturer: "China",
       Img: './images/plushes/plush-2.png',
   },
   {
       id: 12,
-      Title: "Green Car",
-      Cat: 'Cars',
+      Title: "Зеленая машина",
+      Cat: 'Машины',
       Manufacturer: "China",
-      Price: "$55",
-      PriceTotal: "$55",
+      Price: "550₽",
+      PriceTotal: "550₽",
       Count: 1,
       Img: './images/cars/машина1.png',
   },
   { 
     id: 15,
-    Title: "Robot",
-    Cat: 'Meccano',
+    Title: "Робот",
+    Cat: 'Конструкторы',
     Manufacturer: "China",
-    Price: "$65",
-    PriceTotal: "$65",
+    Price: "650₽",
+    PriceTotal: "650₽",
     Count: 1,
     Img: './images/meccano/meccano-1.png',
   },
@@ -84,11 +84,11 @@ const Login = () => {
           <div className="welcome-section">
             <img src="./images/дляВхода.jpg" alt="Welcome" />
             <div className="overlay">
-              <h1>Welcome, {email}!</h1>
-              <button onClick={handleLogout}>Log out</button>
+              <h1>Добро пожаловать, {email}!</h1>
+              <button onClick={handleLogout}>Выйти</button>
             </div>
           </div>
-        <h2>You might be interested in...</h2>
+        <h2>Вас может заинтересовать...</h2>
         <div className="three-products">
           <div className='container2'>
               {
@@ -116,9 +116,9 @@ const Login = () => {
         </div>  
       ) : (
         <form onSubmit={handleSubmit} className="login-form">
-          <h1>Log in</h1>
+          <h1>Вход</h1>
           <div className="form-group">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Почта</label>
             <input
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -130,23 +130,23 @@ const Login = () => {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="password">Password</label>
+            <label htmlFor="password">Пароль</label>
             <input
               value={pass}
               onChange={(e) => setPass(e.target.value)}
               type="password"
-              placeholder="Enter your password"
+              placeholder="Введите пароль"
               id="password"
               name="password"
               required
             />
           </div>
-          <button type="submit" className='form-but'>Send</button>
+          <button type="submit" className='form-but'>Отправить</button>
         </form>
       )}
       {isLogin || (
         <div className="signup-section">
-          <div>Don't have an account? <Link to="/registration">Register here</Link></div>
+          <div>Нет аккаунта? <Link to="/registration">Зарегистрируйтесь здесь</Link></div>
         </div>
       )}
       <InfoBlock/>

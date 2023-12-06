@@ -20,9 +20,9 @@ const PriceFilter = ({ onFilterChange }) => {
   }
   return (
     <div className='price-filter'>
-      <h3> Price </h3>
+      <h3> Цена </h3>
       <div>
-        <label>Min Price:</label>
+        <label>Минимальная:</label>
         <input
           type='number'
           value={minPrice}
@@ -30,7 +30,7 @@ const PriceFilter = ({ onFilterChange }) => {
         />
       </div>
       <div>
-        <label>Max Price:</label>
+        <label>Максимальная:</label>
         <input
           type='number'
           value={maxPrice}
@@ -38,8 +38,8 @@ const PriceFilter = ({ onFilterChange }) => {
         />
       </div>
       <div className='price-buttons'>
-        <button onClick={handleChangeFilter} className='button-1'>Apply</button>
-        <button onClick={handleCancelClick} className='button-2'>Cancel</button>
+        <button onClick={handleChangeFilter} className='button-1'>Применить</button>
+        <button onClick={handleCancelClick} className='button-2'>Сбросить</button>
       </div>
     </div>
   );

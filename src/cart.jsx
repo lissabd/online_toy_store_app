@@ -9,7 +9,7 @@ import { useNavigate  } from 'react-router-dom';
 
 const Cart = () => {
   const [cart, setCart] = useState([]);
-  const [buttonOrder, setButtonOrder] = useState('To order');
+  const [buttonOrder, setButtonOrder] = useState('Заказать');
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -41,17 +41,17 @@ const Cart = () => {
         return cart.reduce((total, item) => total + item.qty, 0);
     };
     const calculateTotalPrice = () => {
-        return cart.reduce((total, item) => total + item.qty * parseFloat(item.Price.replace('$', '')), 0);
+        return cart.reduce((total, item) => total + item.qty * parseFloat(item.Price.replace('₽', '')), 0);
     };
     const handleOrderClick = () => {
       const userData = localStorage.getItem('userData');
       if (!userData){
-         alert("You need to log in to place an order.");
+         alert("Вам нужно войти перед тем, как сделать заказ.");
          navigate("/login");
       }
       else {
-        alert('Order placed successfully!');
-        setButtonOrder("Ordered!!!");
+        alert('Заказ успешно оформлен!');
+        setButtonOrder("Успешно!!!");
         const cleanCart = [];
         setCart(cleanCart);
       }
@@ -64,23 +64,23 @@ const Cart = () => {
     };
     return (
       <>
-        <BreadCrumb currentPage="Shopping Cart" />
+        <BreadCrumb currentPage="Корзина" />
         <div className="cartcontainer">
           {cart.length === 0 ? (
             <div className="emptycart">
-              <h1>Shopping Cart</h1>
-              <h2 className="empty">Your cart is empty</h2>
+              <h1>Ваша корзина</h1>
+              <h2 className="empty">Ваша корзина пуста</h2>
               <p>
                 <FaRegSadCry />
               </p>
               <Link to="/shop">
-                <button className="ShopNow">Shop Now</button>
+                <button className="ShopNow">Купить сейчас</button>
               </Link>
             </div>
           ) : (
             <div className="contant_">
               <div className="tex">
-                <h2>Your Cart</h2>
+                <h2>Ваша корзина</h2>
               </div>
               {cart.map((curElm) => {
                 // Найти соответствующий продукт в Productdetail
@@ -99,7 +99,7 @@ const Cart = () => {
                       <RxCross1 onClick={() => removeFromCart(curElm.id)} />
                     </div>
                     <div className="a">
-                      <div> Price : {curElm.Price}</div>
+                      <div> Цена : {curElm.Price}</div>
                       <div className="count-products">
                         <input
                           type="number"
@@ -108,20 +108,20 @@ const Cart = () => {
                           min="0"
                         />
                       </div>
-                      <div>{'Total Price : $' + curElm.qty * parseFloat(curElm.Price.replace('$', ''))}</div>
+                      <div>{'Итоговая сумма :' + curElm.qty * parseFloat(curElm.Price.replace('₽', ''))}</div>
                     </div>
                   </div>
                 );
               })}
               <div className="cart-footer">
-                <div>Items : {calculateTotalItems()} </div>
-                <div>Total: ${calculateTotalPrice()}</div>
+                <div>Количество : {calculateTotalItems()} </div>
+                <div>Итого: {calculateTotalPrice()} ₽</div>
                 <div className="buttons-under-cart">
                   <button className="cart-but" onClick={handleOrderClick}>
                     {buttonOrder}
                   </button>
                   <button className="cart-but" onClick={handleDeleteProducts}>
-                    Delete all
+                    Очистить
                   </button>
                 </div>
               </div>

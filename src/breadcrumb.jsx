@@ -8,7 +8,7 @@ const BreadCrumb = ({currentPage}) => {
   return (
     <>
          <div className="breadcrumb">
-            <Link to="/" className='navigate-link'>Home</Link>
+            <Link to="/" className='navigate-link'>Главная</Link>
             <span> { ">" } </span>
             <a className="link">{currentPage}</a>
         </div>

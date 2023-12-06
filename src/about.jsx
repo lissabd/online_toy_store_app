@@ -5,56 +5,55 @@ import InfoBlock from './InfoBlock';
 const About = () => {
   return (
     <>
-    <BreadCrumb  currentPage="About Us"/>
+    <BreadCrumb  currentPage="О нас"/>
      <div className="about-us-container">
         <div className="text-before-cards">
-            <h1>About Us</h1>
-            <p>In addition to kids, we also have exclusive programs and activities </p>
-            <p>for your children that help to prepare them for school.</p>
+            <h1>О нас</h1>
+            <p>Мы посвящаем себя предоставлению самого разнообразного ассортимента игрушек, спроектированных развития детей.  </p>
+            <p>Ознакомьтесь с полезной информаицей и будьте в курсе событий!</p>
         </div>
         <div className="grid-cards-about">
             <div className="card card_1">
             <img src="./images/дети-для-карточки.png" alt="kids" />
-            <h1>We Have Everything You Need ?</h1>
+            <h1>У нас есть все, что Вам нужно?</h1>
             <p>
-                It is known that children as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
-                The passage is attributed to an unknown typesetter in the 15th
+             У нас есть все, что вам может понадобиться, чтобы сделать детство вашего малыша незабываемым: начиная от увлекательных обучающих игр, красочных конструкторов, до мягких плюшевых игрушек, готовых стать верными друзьями на каждом этапе их развития.
             </p>
             </div>
             <div className="card card_2">
-            <img src="./online_toy_store_app/images/дети-игргают-для-карточки.png" alt="playing kids" />
+            <img src="./images/дети-игргают-для-карточки.png" alt="playing kids" />
             <ul>
-                <li> <div className="check-mark">✓</div> We make your life easier.</li>
-                <li> <div className="check-mark">✓</div> Experience childcare.</li>
-                <li> <div className="check-mark">✓</div> Daycare is great…</li>
-                <li> <div className="check-mark">✓</div> We are childcare professionals.</li>
-                <li> <div className="check-mark">✓</div> Babysitting with a loving heart.</li>
-                <li> <div className="check-mark">✓</div> Your wishes just came true.</li>
+                <li> <div className="check-mark">✓</div> Мы облегчаем ваш онлайн-шопинг.</li>
+                <li> <div className="check-mark">✓</div> Погрузитесь в мир детских развлечений.</li>
+                <li> <div className="check-mark">✓</div> Интернет-магазин игрушек - это замечательно...</li>
+                <li> <div className="check-mark">✓</div> Мы профессионалы в мире детских развлечений..</li>
+                <li> <div className="check-mark">✓</div> Покупайте игрушки с любовью к каждой детали..</li>
+                <li> <div className="check-mark">✓</div> Ваши желания по игрушкам только что сбылись.</li>
             </ul>
             </div>
             <div className="card card_3">
-            <h2>Working hours</h2>
+            <h2>Рабочее время</h2>
             <ul>
                 <div className="blocks">
                 <div className="block1">
-                    <li>Monday</li>
-                    <li>Tuesday</li>
-                    <li>Wednesday</li>
-                    <li>Thursday</li>
-                    <li>Friday</li>
-                    <li>Saturday</li>
+                    <li>Понедельник</li>
+                    <li>Вторник</li>
+                    <li>Среда</li>
+                    <li>Четверг</li>
+                    <li>Пятница</li>
+                    <li>Суббота</li>
                 </div>
                 <div className="block2">
-                    <li> 9AM - 6PM</li>
-                    <li> 9AM - 6PM</li>
-                    <li> 9AM - 6PM</li>
-                    <li> 9AM - 6PM</li>
-                    <li> 9AM - 6PM</li>
-                    <li> 9AM - 4PM</li>
+                    <li> 9:00 - 18:00</li>
+                    <li> 9:00 - 18:00</li>
+                    <li> 9:00 - 18:00</li>
+                    <li> 9:00 - 18:00</li>
+                    <li> 9:00 - 18:00</li>
+                    <li> 9:00 - 18:00</li>                 
                 </div>
                 </div>
             </ul>
-            <a className="buttons">Contact Us</a>
+            <a className="buttons">Связаться с нами</a>
             </div>
         </div>
     </div>
@@ -63,56 +62,57 @@ const About = () => {
             <img src="./images/ребенок-играетjpg.jpg" alt="playing" />
         </div>
         <div className="text-container">
-            <h1>What Are the Learning Games?</h1>
-            <p>For your children to have good fine motor skills, it is worth offering them special educational games. Our teachers write in this article about particular games. It is known that children learn anything much better in a playful way. What methods are used by teachers to better teach children? Your happy children are our best reward.</p>
-            <button className='to-shop'>Shop now </button>
+            <h1>Что такое обучающие игры?</h1>
+            <p>
+Обучающие игры, такие как пазлы, представляют собой не только источник веселья, но и мощный инструмент развития для детей. В нашем ассортименте обучающих пазлов вы найдете увлекательные задачи, способствующие развитию логического мышления, координации и терпения у маленьких исследователей. Эти игры не только развивают когнитивные навыки, но и помогают формировать важные навыки сотрудничества и усидчивости. </p>
+            <button className='to-shop'>Купить сейчас </button>
         </div>
     </div>
     <InfoBlock/>
     <div className='container-why-we'>
         <div className='round'> 
-            <h5>Our advantages are...</h5>
+            <h5>Наши преимущества...</h5>
         </div>
         <div class="grid-container-about">
             <div class="grid-item">
                 <div class="icon"> <img src='./images/icons/icons-1.jpg' alt="icon"/></div>
-                <p>Availability of all products in stock</p>
+                <p>Наличие всех товаров</p>
             </div>
             <div class="grid-item">
                 <div class="icon"> <img src='./images/icons/icons-2.jpg' alt="icon"/></div>
-                <p>Affordable prices and discounts</p>
+                <p>Доступные цены</p>
             </div>
             <div class="grid-item">
                 <div class="icon"> <img src='./images/icons/icons-3.jpg' alt="icon"/></div>
-                <p>Free delivery</p>
+                <p>Бесплатная доставка</p>
             </div>
             <div class="grid-item">
                 <div class="icon"> <img src='./images/icons/icons-4.jpg' alt="icon"/></div>
-                <p>Convenient delivery</p>
+                <p>Удобная доставка</p>
             </div>
             <div class="grid-item">
                 <div class="icon"> <img src='./images/icons/icons-5.jpg' alt="icon"/></div>
-                <p>The latest news from the world of toys</p>
+                <p>Последние новинки</p>
             </div>
             <div class="grid-item">
                 <div class="icon"> <img src='./images/icons/icons-6.jpg' alt="icon"/></div>
-                <p>Quick order processing</p>
+                <p>Быстрое оформление</p>
             </div>
             <div class="grid-item">
                 <div class="icon"> <img src='./images/icons/icons-7.jpg' alt="icon"/></div>
-                <p>Round-the-clock order acceptance</p>
+                <p>Круглосуточно</p>
             </div>
             <div class="grid-item">
                 <div class="icon"> <img src='./images/icons/icons-8.jpg' alt="icon"/></div>
-                <p>Pickup from the store in 15 minutes after the order</p>
+                <p>Возможность самовывоза</p>
             </div>
             <div class="grid-item">
                 <div class="icon"> <img src='./images/icons/icons-9.jpg' alt="icon"/></div>
-                <p>Urgent delivery</p>
+                <p>Срочная доставка</p>
             </div>
             <div class="grid-item">
                 <div class="icon"> <img src='./images/icons/icons-10.jpg' alt="icon"/></div>
-                <p>Special conditions for legal entities</p>
+                <p>Специальные условия</p>
             </div>
         </div>
     </div>

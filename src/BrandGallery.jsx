@@ -51,7 +51,7 @@ const BrandGallery = () => {
   const visibleBrands = brands.slice(startIndex, startIndex + itemsPerPage);
   return (
     <div className="brand-gallery-container">
-      <h4>Brand Galery</h4>
+      <h4>Наши бренды</h4>
       <div className={`brand-gallery ${isMobile ? 'mobile' : ''}`}>
         {visibleBrands.map((brand) => (
           <div key={brand.id} className="brand-item">
@@ -62,11 +62,11 @@ const BrandGallery = () => {
       {!isMobile && (
         <div className="pagination">
           <button onClick={handlePrevPage} disabled={currentPage === 1}>
-            &lt; Prev
+            &lt; Назад
           </button>
-          <span>{`Page ${currentPage} of ${totalPages}`}</span>
+          <span>{`Страница ${currentPage} из ${totalPages}`}</span>
           <button onClick={handleNextPage} disabled={currentPage === totalPages}>
-            Next &gt;
+            Вперед &gt;
           </button>
         </div>
       )}

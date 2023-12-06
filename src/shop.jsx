@@ -13,7 +13,7 @@ import { useNavigate } from 'react-router';
 const PRODUCTS_PER_ONE_PAGE = 8;
 
 const Shop = () => {
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState('Все');
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [priceFilter, setPriceFilter] = useState({ minPrice: '', maxPrice: '' });
   const productsSection = useRef(null);
@@ -48,8 +48,8 @@ const Shop = () => {
   }, []);
 
   const filterProduct = (someProduct) => {
-    const inWhichCategory = (selectedCategory === 'All' || someProduct.Cat === selectedCategory);
-    const productPrice = parseFloat(someProduct.Price.replace('$', ''));
+    const inWhichCategory = (selectedCategory === 'Все' || someProduct.Cat === selectedCategory);
+    const productPrice = parseFloat(someProduct.Price.replace('₽', ''));
     const inPriceRange = (
       (priceFilter.minPrice === '' || productPrice >= priceFilter.minPrice) &&
       (priceFilter.maxPrice === '' || productPrice <= priceFilter.maxPrice)
@@ -73,31 +73,31 @@ const Shop = () => {
     const existingItem = existingCart.find(item => item.id === curElm.id);
 
     if (existingItem) {
-      alert("This item is already in your cart.");
+      alert("Этот товар уже у Вас в корзине.");
     } else {
       existingCart.push({ ...curElm, qty: 1 });
-      alert("Item added to your cart.");
+      alert("Товар добавлен в корзину.");
     }
     localStorage.setItem('cart', JSON.stringify(existingCart));
   };
 
   return (
     <>
-      <BreadCrumb currentPage="Shop" />
+      <BreadCrumb currentPage="Каталог" />
       <div className='products'>
         <div className='container'>
           <div className='before-price'>
             <div className='filter'>
               <div className='categories'>
-                <h2>Categories</h2>
+                <h2>Категории</h2>
                 <ul>
-                  <li onClick={() => { setSelectedCategory('All'); scrollToSection(productsSection); }}>All</li>
-                  <li onClick={() => {setSelectedCategory('Dolls'); scrollToSection(productsSection); }}>Dolls</li>
-                  <li onClick={() => {setSelectedCategory('Cars'); scrollToSection(productsSection); }}>Cars</li>
-                  <li onClick={() => {setSelectedCategory('Books'); scrollToSection(productsSection); }}>Books</li>
-                  <li onClick={() => {setSelectedCategory('Plush'); scrollToSection(productsSection); }}>Plush</li>
-                  <li onClick={() => {setSelectedCategory('Meccano'); scrollToSection(productsSection); }}>Meccano</li>
-                  <li onClick={() => {setSelectedCategory('Puzzles'); scrollToSection(productsSection); }}>Puzzles</li>
+                  <li onClick={() => { setSelectedCategory('Все'); scrollToSection(productsSection); }}>Все</li>
+                  <li onClick={() => {setSelectedCategory('Куклы'); scrollToSection(productsSection); }}>Куклы</li>
+                  <li onClick={() => {setSelectedCategory('Машины'); scrollToSection(productsSection); }}>Машины</li>
+                  <li onClick={() => {setSelectedCategory('Книги'); scrollToSection(productsSection); }}>Книги</li>
+                  <li onClick={() => {setSelectedCategory('Плюшевые'); scrollToSection(productsSection); }}>Плюшевые</li>
+                  <li onClick={() => {setSelectedCategory('Конструкторы'); scrollToSection(productsSection); }}>Конструкторы</li>
+                  <li onClick={() => {setSelectedCategory('Пазлы'); scrollToSection(productsSection); }}>Пазлы</li>
                 </ul>
               </div>
               <div className='price'>
@@ -106,11 +106,8 @@ const Shop = () => {
             </div>           
             <div className='text-pic-block'>
               <img src='./images/for-shop-main-pic.jpg' alt="toys"></img>
-              <h1>Shop</h1>
-              <p>Have you ever wondered how grateful can be your pet for your care and love? Little hearts of those 
-                animals we take care of are able to warm us and hide from sad thoughts no matter how big our pets are.
-                They may be small and fearful or big and brave, obedient or self-willed, they may differ in color and shape,
-                but all they have is love in their hearts which we can easily discover just looking into their eyes.
+              <h1>Каталог</h1>
+              <p>Наш магазин игрушек гордится разнообразием предложений в нашем каталоге. Независимо от возраста вашего ребенка или его индивидуальных предпочтений, у нас есть что-то особенное для каждого. Наш разнообразный каталог включает в себя увлекательные обучающие игры, креативные конструкторы, плюшевых друзей и множество других игрушек, спроектированных для веселого и полезного времяпрепровождения детей. Мы постоянно обновляем наш ассортимент, чтобы предложить самые последние и качественные игрушки.
                 </p>
             </div>
           </div>
@@ -146,8 +143,8 @@ const Shop = () => {
                 })
               ) : (
                 <div className='zero-products'>                 
-                    <h4>Sorry ... </h4>
-                    <h5>No sush product</h5>
+                    <h4>Извините ... </h4>
+                    <h5>Такого продукта нет в каталоге</h5>
                     <FaRegSadCry />              
                 </div>
               )}

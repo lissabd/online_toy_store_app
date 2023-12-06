@@ -25,10 +25,10 @@ const Home = () => {
       <div className="bigCard">
         <div className='big-text'>
           <h1>
-          Exclusive Toys
+          Эксклюзивные игрушки
           </h1>
-          <p>Special Offer for New Customer</p>
-          <Link to="/shop"><ShopButton>Shop Now</ShopButton></Link>
+          <p>Специальные предложения только у нас</p>
+          <Link to="/shop"><ShopButton>Купить сейчас</ShopButton></Link>
         </div>
         <div className='toy-card'>
           <img src='./images/meccano/meccano-5.png' alt="robot"/>
@@ -40,9 +40,9 @@ const Home = () => {
              <div className='first-pic'>
                 <img src='./images/plushes/plush-5.png' alt="lion"/>
              </div>
-            <h2>Up to 50% Off</h2>
-            <p>On Selected Items</p>
-            <Link to="/shop"><ShopButton>Shop Now</ShopButton></Link>
+            <h2>Ознакомьтесь</h2>
+            <p>с каталогом</p>
+            <Link to="/shop"><ShopButton>Купить сейчас</ShopButton></Link>
           </div>
           <div className='small-plush'>
             <img src='./images/plushes/plush-5.png' alt="lion"/>
@@ -52,9 +52,9 @@ const Home = () => {
         <img src='./images/фон.png' alt="фог"/>
         <div className='fon-card'>
         <div className='small-last-text'>
-            <h3>5% Off</h3>
-            <p>On Lego</p>
-            <Link to="/shop"><ShopButton>Shop Now</ShopButton></Link>
+            <h3>Новые поступления</h3>
+            <p>товаров Lego</p>
+            <Link to="/shop"><ShopButton>Купить сейчас</ShopButton></Link>
           </div>
         </div>         
         </div>
@@ -62,45 +62,45 @@ const Home = () => {
     </div>
     <div className="grid-container">
             <div className="grid-item"> <img className='re' src="./images/images-in-line-1page/books.jpg" alt="books"/>
-                <p>Books</p>
+                <p>Книжки</p>
             </div>
             <div className="grid-item"> <img src="./images/images-in-line-1page/cars.jpg" alt="cars"/>
-                <p>Cars</p>
+                <p>Машины</p>
             </div>
             <div className="grid-item">  <img src="./images/images-in-line-1page/dolls.jpg" alt="dolls"/>
-               <p>Dolls</p>
+               <p>Куклы</p>
             </div>
             <div className="grid-item">  <img className='re' src="./images/images-in-line-1page/meccano.jpg" alt="meccano"/>
-                <p>Meccano</p>
+                <p>Конструкторы</p>
             </div>
             <div className="grid-item">   <img src="./images/images-in-line-1page/plush.jpg" alt="plush"/>
-                <p>Plush</p>
+                <p>Плюшевые</p>
             </div>
             <div className="grid-item">   <img src="./images/images-in-line-1page/puzzles.jpg" alt="puzzles"/>
-               <p>Puzzles</p>
+               <p>Пазлы</p>
             </div>
       </div>
       <div className='news-section'>
           <div className="email-container">
-            <h3>Newsletter</h3>
-            <p>Stay informed about the new arrivals, sales and offers or discover the latest trends! Follow us.</p>
+          <h3>Новостная рассылка</h3>
+          <p>Будьте в курсе новых поступлений, распродаж и предложений или узнавайте о последних тенденциях! Подписывайтесь на нас.</p>
             <input type="email" placeholder="Enter your email" />
-            <button className="subscribe-button">Subscribe</button>
+            <button className="subscribe-button">Подписаться</button>
           </div>
           <div className="sale-container">
             <div className='text-sale'>
-              <h2>50% Sale</h2>
-              <p>With all of our team members being happy parents themselves,
-              we have the experience and the caring it takes to run the best e-store. 
-              </p>            
-              <button className="shop-now-button">Shop Now</button>
+            <h2>О команде</h2>
+            <p>Поскольку все члены нашей команды сами являются счастливыми родителями,
+            у нас есть опыт и забота, необходимые для управления лучшим интернет-магазином.
+            </p>
+              <button className="shop-now-button">Купить сейчас</button>
             </div>
             <div className='img-sale'>
               <img src="./images/plushes/plush-3.png" alt="Product" />
             </div>
           </div>             
       </div>
-      <h3 className='fonts'> Popular products</h3>
+      <h3 className='fonts'> Популярные продукты</h3>
           <div className='product'>
             <div className='container3'>
               {
@@ -127,13 +127,13 @@ const Home = () => {
           <BrandGallery/>
           <div className='section-location'>
               <div className="store-container">
-                <h4>Store Locator</h4>
-                <p>We constantly arrange a variety of activities for our students and their parents, and for those who have not yet enrolled in our kindergarten.</p>
+                <h4>Наше местоположение</h4>
+                <p>Наш магазин находится в идеальном месте, предоставляя удобный и легкий доступ для наших клиентов.</p>
                 <img src='./images/shop.jpg' alt="shop"/>
                 <div className='list'>
                   <ul>
-                    <li> <MdLocationPin /> Arbat street, 12</li>
-                    <li> <FaClock /> Opened 9:45 AM </li>
+                    <li> <MdLocationPin /> ул. Арбатская, 12</li>
+                    <li> <FaClock /> Открыты с 9:00</li>
                     <li> <FaPhone /> 8 (800) 555-35-35</li>
                   </ul>
                 </div>
