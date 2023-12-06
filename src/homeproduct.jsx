@@ -35,14 +35,15 @@ const Homeproduct = [
     },
     {
         id: 4,
-        Title: "Желтый трансформер",
-        Cat: 'Конструкторы',
-        Price: "819₽",
-        PriceTotal: "819₽",
+        Title: "Кукла Барби Фея",
+        Cat: 'Куклы',
+        Manufacturer: "USA",
+        Price: "752₽",
+        PriceTotal: "752₽",
         Count: 1,
-        Manufacturer: "China",
-        Img: './images/meccano/meccano-2.png',
+        Img: './images/dolls/doll3.png',
     },
+    
     /* Куклы */
     {
         id: 5,

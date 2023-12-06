@@ -108,7 +108,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     padding: 10px 30px;
-    margin-top: 20px;
+    margin-top: 50px;
     cursor: pointer;
     display: inline-block;
     color: black;
@@ -116,6 +116,11 @@
     backdrop-filter: blur(10px);
     font-family: Snell Roundhand, cursive;
  }
+ .ter{
+  color: white;
+  font-family: Snell Roundhand, cursive;
+  margin-top: 10px;
+}
 .blocks {
   display: flex;
 }
