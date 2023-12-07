@@ -1,4 +1,4 @@
-import React  from 'react';
+import React, { useState }  from 'react';
 import Nav from './nav';
 import Footer from './footer';
 import Shop from './shop';
@@ -19,6 +19,14 @@ import { MdLocationPin } from "react-icons/md";
 
 
 const Home = () => {
+  const [email, setEmail] = useState('');
+  const [subscriptionStatus, setSubscriptionStatus] = useState('');
+
+  const handleSubscribe = () => {
+    // После успешной подписки обновляем состояние
+    setSubscriptionStatus('Отправлено');
+    setEmail(''); // Очищаем введенный email
+  };
   return (
     <>
     <div className="card-container">
@@ -85,7 +93,9 @@ const Home = () => {
           <h3>Новостная рассылка</h3>
           <p>Будьте в курсе новых поступлений, распродаж и предложений или узнавайте о последних тенденциях! Подписывайтесь на нас.</p>
             <input type="email" placeholder="Enter your email" />
-            <button className="subscribe-button">Подписаться</button>
+            <button className="subscribe-button" onClick={handleSubscribe}>
+              {subscriptionStatus || 'Подписаться'}
+            </button>
           </div>
           <div className="sale-container">
             <div className='text-sale'>

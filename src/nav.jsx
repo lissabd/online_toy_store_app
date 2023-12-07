@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <header>
       <div className="logo">
-        <img src="./images/header-icon.png" alt="Логотип сайта" />
+      <Link to="/"><img src="./images/header-icon.png" alt="Логотип сайта" /></Link>
       </div>
       <div className="icons-menu">
         <Link to="/cart"> 

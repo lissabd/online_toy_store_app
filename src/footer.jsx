@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer" id="footer-main">
       <div className="footer-grid">
         <section className="footer-1">
-          <img src="./images/header-icon.png" alt="Логотип сайта в подвале" />
+          <Link to="/"><img src="./images/header-icon.png" alt="Логотип сайта в подвале" /></Link>
           <p className="in-footer"> Информация о разработчике:
           </p>
           <p>ФИО: Абдеева А.Р. 
